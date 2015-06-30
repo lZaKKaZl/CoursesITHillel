@@ -13,7 +13,7 @@ public class digitsOfFibanachi {
             fib = a + b;
             a = b;
             b = fib;
-            System.out.print(" " + fib);
+            System.out.println(" " + fib);
             i++;
         }
     }
