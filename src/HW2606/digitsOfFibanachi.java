@@ -5,7 +5,7 @@ package HW2606;
  */
 public class digitsOfFibanachi {
     public static void main(String[] args) {
-        int n = 20;
+        int n = 50;
         int a = 1, b = 1;
         System.out.println(a + " " + b);
         int fib = 2, i = 2;
@@ -15,6 +15,7 @@ public class digitsOfFibanachi {
             b = fib;
             System.out.println(" " + fib);
             i++;
+            System.out.println("Number of iteration: ¹" + i);
         }
     }
 }
