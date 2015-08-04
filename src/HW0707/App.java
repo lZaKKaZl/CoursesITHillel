@@ -39,4 +39,10 @@ public class App {
 //        notCleverDog.say();
 
     }
+    public static Integer sum(Integer f, Integer s){
+        return f + s;
+    }
+    public static Double sum(Double f, Double s){
+        return f + s;
+    }
 }
